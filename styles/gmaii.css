@@ -1,0 +1,66 @@
+.icon{
+    width: 100%;
+    border-radius: 50%;
+}
+.outer{
+   margin-top: 10px;
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    
+}
+.icon-row{
+    width: 50px;
+    margin-right: 10px;
+ 
+   
+    
+}
+.info{
+    display: grid;
+    
+    vertical-align: top;
+    
+}
+.pos{
+  
+    display: grid;
+    
+
+}
+.pos2{
+   
+    display: grid;
+    text-align: end;
+}
+.head{
+    display: inline-block;
+    grid-template-columns: 1fr;
+  
+}
+.main-outer{
+    display: grid;
+    border-style: outset;
+    border-width: 2px;
+    
+    padding: 5px;
+    max-width: 400px;
+    
+
+
+}
+.pos1{
+    display: grid;
+    grid-template-columns: 1fr 60px;
+    column-gap: 40px;
+    margin-right: 20px;
+}
+.flex-row{
+    display: grid;
+    grid-template-rows: 1fr;
+}
+.over{
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 0px;
+    justify-content: space-between;
+}
